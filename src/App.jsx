@@ -1,7 +1,7 @@
 import { BrowserRouter,Routes,Route } from 'react-router'
 
 import Register from './component/Register'
-import Login from './component/login'
+import Login from './component/Login'
 import Home from './component/Home'
 import Cart from './component/Cart'
 import ProtectedRoute from './component/ProtectedRoute'
