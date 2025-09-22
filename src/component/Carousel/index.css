@@ -1,0 +1,18 @@
+.slider-container {
+    padding: 40px;
+    width:1290px;
+    height:320px;
+    margin-left: 110px;
+    margin-top:20px;
+    
+}
+.image{
+    width:1210px;
+    height:320px;
+     border-radius: 10px;
+}
+.beat-loader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

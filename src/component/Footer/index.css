@@ -1,0 +1,39 @@
+.footer-container{
+    background-color: #0F172A;
+    padding: 60px;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-image{
+    width: 40px;
+    height: 30px;
+}
+.footer-heading{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: 8px;
+  color:#FFFFFF;
+  padding-bottom: 20px;
+}
+.footer-para{
+color:#FFFFFF;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+}
+.logos{
+   display:flex;
+   flex-direction: row;
+   gap:11px;
+   margin-top:20px;
+   justify-content: center;
+}
+.logo-img{
+    width:38px;
+    height:38px;
+}

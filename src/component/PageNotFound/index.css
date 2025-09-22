@@ -1,0 +1,23 @@
+.not-found-container{
+    text-align: center;
+    padding:20px;
+    margin-top:80px;
+}
+.not-found-title{
+  margin:10px;
+}
+.not-found-text{
+    margin:10px;
+}
+.home-link{
+  background-color: #f7931e;
+  border: none;
+  color: white;
+  
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

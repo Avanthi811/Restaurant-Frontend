@@ -1,0 +1,28 @@
+.payment-successful-container { 
+  text-align: center;
+  max-width: 600px;
+  margin: 60px auto;
+}
+.img {
+  width: 100px;
+  margin:10px;
+}
+.heading {
+  color: black;
+  font-size:24px;
+  margin:10px;
+}
+.paragraph {
+  font-size: 18px;
+  color: #444;
+  margin:10px;
+}
+.button{
+    background-color: #F7931E;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
