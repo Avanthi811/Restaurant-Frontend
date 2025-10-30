@@ -15,7 +15,7 @@ const RestaurantDetails = () => {
   useEffect(() => {
     const fetchDetails = async () => {
       const jwtToken = Cookies.get('jwt_token')
-      const apiUrl = `http://localhost:5008/api/restaurant/${id}`
+      const apiUrl = `https://restaurant-backend-nkkg.onrender.com/api/restaurant/${id}`
       const options = {
         headers: {
           Authorization: `Bearer ${jwtToken}`,

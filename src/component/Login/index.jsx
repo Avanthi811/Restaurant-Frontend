@@ -28,7 +28,7 @@ const Login = () => {
     event.preventDefault()
     const userDetails = { name:username, password }
 
-    const apiurl = `http://localhost:5008/api/login`
+    const apiurl = `https://restaurant-backend-nkkg.onrender.com/api/login`
     const options = {
       method: 'POST',
       headers: {

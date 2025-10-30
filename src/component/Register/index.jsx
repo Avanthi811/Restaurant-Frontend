@@ -28,7 +28,7 @@ const Register = () => {
 
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:5008/api/register", {
+      const res = await fetch("https://restaurant-backend-nkkg.onrender.com/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

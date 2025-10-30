@@ -18,7 +18,7 @@ const ReactSlick = () => {
   useEffect(()=>{
     // console.log(data)
     const getTop = async () => {
-      const url = `http://localhost:5008/api/carousel`;
+      const url = `https://restaurant-backend-nkkg.onrender.com/api/carousel`;
         const jwtToken = Cookies.get('jwt_token')
         const options={
             headers:{

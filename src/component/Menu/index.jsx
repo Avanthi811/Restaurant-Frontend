@@ -15,7 +15,7 @@ const Menu = () => {
     // const offset = (page - 1) * LIMIT
     // console.log(offset)
     console.log(page)
-    const apiurl = `http://localhost:5008/api/restaurant?page=${page}&limit=${LIMIT}&sort=${sortOrder}`
+    const apiurl = `https://restaurant-backend-nkkg.onrender.com/api/restaurant?page=${page}&limit=${LIMIT}&sort=${sortOrder}`
     const jwtToken = Cookies.get('jwt_token')
 
     const options = {
